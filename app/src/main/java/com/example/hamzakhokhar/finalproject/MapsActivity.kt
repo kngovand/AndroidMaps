@@ -28,11 +28,11 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
                 .findFragmentById(R.id.map) as SupportMapFragment
         mapFragment.getMapAsync(this)
     }
-fun openCreateEvent(view: View){
-    val intent = Intent(this,CreateEvent::class.java)
-    startActivity(intent)
+    fun openCreateEvent(view: View){
+        val intent = Intent(this,CreateEvent::class.java)
+        startActivity(intent)
              // Toast.makeText(this, "new event created", Toast.LENGTH_SHORT).show()
-}
+    }
     fun openActivityList(view: View){
         val intent = Intent(this,ActivityList::class.java)
         startActivity(intent)
@@ -72,7 +72,6 @@ fun openCreateEvent(view: View){
         }
 
     }
-
 
     override fun onMapReady(googleMap: GoogleMap) {
         mMap = googleMap

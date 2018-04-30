@@ -10,18 +10,17 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:id="@+id/map"
         android:name="com.google.android.gms.maps.SupportMapFragment"
-        android:layout_width="369dp"
-        android:layout_height="321dp"
+        android:layout_width="387dp"
+        android:layout_height="345dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         map:layout_constraintBottom_toBottomOf="parent"
         map:layout_constraintEnd_toEndOf="parent"
-        map:layout_constraintHorizontal_bias="0.0"
         map:layout_constraintStart_toStartOf="parent"
         map:layout_constraintTop_toTopOf="parent"
-        map:layout_constraintVertical_bias="0.614"
+        map:layout_constraintVertical_bias="0.557"
         tools:context="com.example.hamzakhokhar.finalproject.MapsActivity" />
 
     <Button
@@ -49,7 +48,7 @@
         android:layout_marginTop="376dp"
         android:text="Activity List"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button"
+        app:layout_constraintEnd_toStartOf="@+id/button_save"
         app:layout_constraintHorizontal_bias="0.666"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -64,10 +63,10 @@
         android:layout_marginTop="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.307"
+        app:layout_constraintHorizontal_bias="0.653"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.019"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/msudenver" />
 
 </android.support.constraint.ConstraintLayout>
