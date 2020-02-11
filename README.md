@@ -1,11 +1,11 @@
 # androidMapsProject
  
-*Campus Event Apps Written by: Kevin Ngovanduc, Hamza Khokhar*    
+*Campus Event Apps by: Kevin Ngovanduc, Hamza Khokhar*    
  
-		Objective:     
+	Objective:     
 The objective of this Campus Event app was to inform current MSU Denver students about activities that would take place on Auraria Campus. The app would start on a log on screen, where the database would correspond to the current students registered at MSU. From the login screen, students would have to register through the Firebase database and create a new user account, where the app would direct them to the maps home page. From there, users would have a map view and two buttons, Activity List and Create Event. These buttons would allow students to either view, edit, or delete activities.  
  
-		Features:   
+	Features:   
 ● App launch splash screen   
 ● Login and Registration functional with Firebase cloud storage   
 ● Home page: Maps activity with the ability to view and create new events through forms   
@@ -14,12 +14,12 @@ The objective of this Campus Event app was to inform current MSU Denver students
 ● Using inputted address to retrieve geolocation (uses static map API)   
 ● Uses shake sensor to delete unwanted cards    
  
-		API tools used:    
+	APIs used:    
 ● Google maps API   
 ● Static map API   
 ● Firebase Cloud storage   
  
-		Key classes: 
+	Key classes: 
 Login screen (Login.kt)   
 ● Complete with login screen for username email and hidden password textbox   
 ● Utilizes Firebase to store and retrieve user credentials ● Login uses intent to navigate to Registration or Maps Activity
@@ -43,12 +43,12 @@ Maps Activity (MapsActivity.kt)
 ● When Activity List is selected, the user will be able to view specific information about an event on campus. This information would include: activity name/type, date, start/end time, and the address where the event would take place. The Activity list holds a ‘card’ for each event created and would show the location on the map. The user also has the option to delete cards as well   
 ● Create Event works similarly to Activity List, where it asks the user to input all of the information required to create an activity    
 
-		Issues encountered:    
+	Issues encountered:    
 ● The static maps API was extremely difficult to code with, we ended up trying to use resources from the internet but they were also scarce.     
 ● Progress bar in the Login and Registration classes had a bug and was forcing the app to crash. It has currently been commented out and we are trying to debug the code.      
 ● Unknown crash when launching the app, we were able to fix the problem by editing the manifest.xml by altering the permissions. 
  
-		Potential improvements:     
+	Potential improvements:     
 ● We were considering implementing an administrative login, where only the admins can delete cards and edit them as well. They would also be able to access student accounts.      
 ● Using geofence for markers, so that when a user approaches a marker, they will be updated with a notification even if the application is closed.      
 ● More forms, categories, and better organization.     
